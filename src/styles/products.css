@@ -7,3 +7,16 @@ h1{
     width: 24%;
     justify-content: space-between;
 }
+
+.dish-price button{
+    padding-left: 10px;
+}
+
+@media  screen  and (max-width: 600px){
+    .dish{
+        width: 327px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
