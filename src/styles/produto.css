@@ -1,0 +1,28 @@
+.produto{
+    
+    height: 400px;
+    width: 1250px;
+    padding: 10px 1%;
+    display: flex;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.informacoes{
+    padding-left: 30px;
+}
+
+.produto img{
+    height: 300px;
+    width: 300px;
+}
+
+.produto p{
+    
+    height: 150px;
+    width: 400px;
+}
+
+.informacoes span{
+    height: 10px;
+}
