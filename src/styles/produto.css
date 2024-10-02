@@ -3,7 +3,8 @@
     height: 400px;
     width: 1250px;
     padding: 10px 1%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 400px 450px 400px;
     border: 1px solid black;
     margin: 0 auto;
 }
@@ -23,6 +24,10 @@
     width: 400px;
 }
 
-.informacoes span{
-    height: 10px;
+span{
+    display: inline ;
+}
+
+#aside{
+    display: inline;
 }
