@@ -50,7 +50,11 @@
 }
 
 .feedback-content p span{
-    color: #var(--color-primary-6);
+    color: var(--color-primary-6);
+}
+
+#testimonials img{
+    border-radius: 12px;
 }
 
 @media screen and (max-width: 1170px){
