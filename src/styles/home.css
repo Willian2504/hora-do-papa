@@ -83,4 +83,9 @@
     #phone_button{
         display: none;
     }
+
+    #cta .title{
+        font-size: 3.5rem;
+        
+    }
 }
