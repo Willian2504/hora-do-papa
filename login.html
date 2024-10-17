@@ -12,17 +12,16 @@
 </head>
 <body>
     <main>
-        <div class="principal">
-            <img src="src/images/logofinalremovebg-preview.png" alt="Logo">
-            <div id="login">
-                <h1>Fazer login</h1>
-                <h2>Digite seu email e senha</h2>
-                <input type="email" placeholder="Digite seu email" id="">
-                <input type="password" placeholder="Digite sua senha" id="">
-                <input type="button"  class="btn-default" value="Continuar">
-                <p>Não possui cadastro? Cadastre-se <a href="#">Aqui</a></p>
-            </div>
-        </div>
+        <h1>Fazer login</h1>
+        <form  method="POST" action="/login">
+            <label for="username">Usuário:</label>
+            <input type="text" name="username" id="username">
+            <br>
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <button type="submit">Entrar</button>
+        </form>
     </main>
     <footer>
         <img src="src/images/wave (1).svg" alt="">
