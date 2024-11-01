@@ -1,9 +1,9 @@
-img{
+/*img{
     display: flex;
     height: 180px;
     width: 180px;
     margin: 0 auto;
-}
+}*/
 
 .principal{
     background-color: var(--color-primary-1);
