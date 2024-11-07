@@ -13,8 +13,10 @@ header{
 
 #navbar{
     width: 100%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
 }
 
@@ -25,6 +27,7 @@ header{
 
 #nav_list{
     display: flex;
+    margin: 0 auto;
     list-style: none;
     gap: 48px;
 }
