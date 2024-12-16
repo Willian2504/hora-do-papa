@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Hora do papa</title>
+    <link rel="shortcut icon" href="src/images/Microsoft-Fluentui-Emoji-Flat-Fork-And-Knife-With-Plate-Flat.512.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="src/images/logofinalremovebg-preview.png" alt="logo" id="nav-logo">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index.html">Início</a>
+                </li>
+                <li id="nav-item">
+                    <a href="#menu">Departamentos</a>
+                </li>
+                <li id="nav-item">
+                    <a href="#Tutoriais">Tutoriais</a>
+                </li>
+            </ul>
+            
+            <button class="btn-default">
+                Compre aqui
+            </button>
+            
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li id="nav-item">
+                    <a href="@">Início</a>
+                </li>
+                <li id="nav-item">
+                    <a href="#menu">Departamentos</a>
+                </li>
+                <li id="nav-item">
+                    <a href="#Tutoriais">Tutoriais</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Compre aqui
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="produto">
+            <img src="src/images/colheres/colher avião/duas-novo.jpg" alt="colher silicone" class="main-image">
+
+                <div class="informacoes">
+                    <h1>Colher avião Buba</h1>
+                    <p>A colher avião Buba é um utensílio divertido e prático para alimentar bebês e crianças pequenas. Seu design em formato de avião torna a hora da refeição mais agradável e estimulante. Feita de material seguro e resistente, é fácil de limpar e ideal para introduzir alimentos sólidos de forma lúdica. Disponível nas cores azul e vermelho-novo</p>
+                 </div>
+        
+                 <div class="aside">
+                    <span>R$ 25,00</span>
+                     <div class="buttons">
+                         <a href="https://wa.me/5534999060261"><button class="btn-default">Comprar</button></a>
+                         
+                     </div>
+                     <!--<div class="frete">
+                        <input type="number" id="cep">
+                        <button conclick="consultaEndereco()">Consultar frete</button>
+                     </div>-->
+                 </div>
+                 <div class="thumbnails">
+
+                        <img src="src/images/colheres/colher avião/duas-novo.jpg" alt="foto1" class="thumbnail">
+                        <img src="src/images/colheres/colher avião/azul-novo.webp" alt="foto2" class="thumbnail">
+                        <img src="src/images/colheres/colher avião/vermelho-novo.webp" alt="foto3" class="thumbnail">
+                    
+                 </div>
+        
+        </section>
+        <section class="especificacoes">
+            <h1>Especificações do produto</h1>
+            <ul>
+                <li>Dimensões do produto: 18x10cm</li>
+                <li>Material: Polipropileno</li>
+                <li>Faixa etária: a partir de 6 meses</li>
+            </ul>
+        </section>
+        <section class="outros">
+            <h1>Veja também</h1>
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/Pratos/Pratinho-em-Silicone-redimen.webp" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Pratos
+                    </h3>
+
+                    <span class="dish-description">
+                        <p>Perfeitos para introdução alimentar <br>   </br></p>
+                    </span> 
+                    <div class="dish-price">
+                        <button class="btn-default">
+                            <a href="pratos.html" target="_blank">Ver produtos</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/copos e garrafinhas/copo de treinamento.webp" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Copos e garrafinhas
+                    </h3>
+
+                    <span class="dish-description">
+                        <p>Ideais para serem mais confortáveis<br>   </br></p>
+                    </span>
+                    <div class="dish-price">
+                        <button class="btn-default">
+                            Ver produtos
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/copos e garrafinhas/colher dosadora.webp" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Talheres
+                    </h3>
+
+                    <span class="dish-description">
+                        <p>Perfeitos para introdução alimentar <br>   </br></p>
+                    </span>
+                    
+                    <div class="dish-price">
+                     
+                        <button class="btn-default">
+                            Ver produtos
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/utensílioa/massageador de gengiva redimen.webp" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Utensílios 
+                    </h3>
+
+                    <span class="dish-description">
+                        <p>Mordedores, babadores, garfinhos de petisco, entre outros</p>
+                    </span>
+                    
+                    <div class="dish-price">
+                        
+                        <button class="btn-default">
+                            Ver produtos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="src/images/wave (1).svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Pamela Cristina
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/cep.js"></script>
+    <script src="gallery.js"></script>
+    </body>
+    </html>
