@@ -90,3 +90,9 @@
         
     }
 }
+
+@media screen and (max-width: 360px){
+    #cta .title{
+        font-size: 2.5rem;
+    }
+}
