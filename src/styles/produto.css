@@ -82,3 +82,45 @@
   .main-image:hover {
     transform: scale(1.3); /* Aumenta a imagem em 20% */
   }
+
+  @media  screen  and (max-width: 600px){
+    .produto{
+        display: inline;
+        
+    }
+    .produto .main-image{ 
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .produto .thumbnails{
+        margin: auto;
+        width: 340px;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .produto .aside{
+        display: flex;
+        margin: auto;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .especificacoes{
+        display: block;
+        width: 327px;
+        height: 250px;
+        font-size: 0.9rem;
+    }
+    .dish{
+        width: 327px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+
