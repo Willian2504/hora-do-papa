@@ -25,7 +25,12 @@
                 <li id="nav-item">
                     <a href="#Tutoriais">Tutoriais</a>
                 </li>
-            </ul> 
+            </ul>
+            
+            <button class="btn-default">
+                Compre aqui
+            </button>
+            
             <button id="mobile_btn">
                 <i class="fa-solid fa-bars"></i>
             </button>
@@ -42,77 +47,44 @@
                     <a href="#Tutoriais">Tutoriais</a>
                 </li>
             </ul>
-            
+            <button class="btn-default">
+                Compre aqui
+            </button>
         </div>
     </header>
     <main>
-        <section id="pratos">
-            <h1>Pratos</h1>
-            <h2>Pratos para todos os estilos e gostos</h2>
-           
-            <div class="dish">
-                <img src="src/images/Pratos/prato-rosa/maior-redimen.jpg" alt="" id="product-img">
-                <div class="dish-title">
-                    <h3>Pratinho em silicone rosa</h3>
-                </div>
-                <div class="dish-price">
-                    <span>R$ 75,00</span>
-                    <button class="btn-default">
-                        <a href="produto.html">Comprar</a>
-                    </button>
-                </div>
-            </div>
-            <div class="dish esgotado">
-                <img src="src/images/Pratos/prato-fun/prato-fun-maior-redimen-jpg.png" alt="">
-                <div class="dish-title">
-                    <h3>Pratinho com ventosa fun</h3>
-                </div>
-                <div class="dish-price">
-                    <span>R$ 25,00</span>
-                    <button class="btn-default">
-                        <a href="prato-fun.html">Comprar</a>
-                    </button>
-                </div>
-            </div>
-            <div class="dish esgotado">
-                <img src="src/images/Pratos/prato-cenoura/foto1.jpg" alt="">
-                <div class="dish-title">
-                    <h3>Pratinho em silicone formato de cenoura</h3>
-                </div>
-                <div class="dish-price">
-                    <span>R$ 25,00</span>
-                    <button class="btn-default">
-                        <a href="prato-cenoura.html">Comprar</a>
-                    </button>
-                </div>
-            </div>
-            <div class="dish esgotado">
-                <img src="src/images/Pratos/Pratinho-em-Silicone-redimen.webp" alt="">
-                <div class="dish-title">
-                    <h3>Pratinho em silicone azul</h3>
-                </div>
-                <div class="dish-price">
-                    <span>R$ 75,00</span>
-                    <button class="btn-default">
-                        <a href="produto.html">Comprar</a>
-                    </button>
-                </div>
-            </div>
-            <div class="dish">
-                <img src="src/images/Pratos/kit-bolo-fofos/kit-bolo1redimen.webp" alt="">
-                <div class="dish-title">
-                    <h3>Kit bolo fofos</h3>
-                </div>
+            <section class="produto">
+                <img src="src/images/copos e garrafinhas/copo-treinamento-tigre/foto1.jpg" alt="Pratinho em silicone" class="main-image">
+                    <div class="informacoes">
+                        <h1>Copo de treinamento Tigrinho</h1>
+                        <p>O Copo de Treinamento da Buba foi desenvolvido com um design perfeito para os primeiros momentos da refeição independente do seu pequeno, com duas alças de apoio, os bebês se sentem seguros para aproveitar o lanchinho ou a refeição de forma alegre, garantindo limpeza e qualidade.</p>
+                     </div>
+            
+                     <div class="aside">
+                        <span>R$ 60,00</span>
+                         <div class="buttons">
+                             <a href="https://wa.me/553834931005"><button class="btn-default">Comprar</button></a>
+            
+                         </div>
+                     </div>
+                     <div class="thumbnails">
+                            <img src="src/images/copos e garrafinhas/copo-treinamento-tigre/foto1.jpg" alt="foto1" class="thumbnail">
+                            <img src="src/images/copos e garrafinhas/copo-treinamento-tigre/foto2.jpg" alt="foto2" class="thumbnail">
+                            <img src="src/images/copos e garrafinhas/copo-treinamento-tigre/foto3.jpg" alt="foto3" class="thumbnail">
+            
+                     </div>
+            </section>
+            <section class="especificacoes">
+                <h1>Especificações do produto</h1>
+                <ul>
+                    <li>Dimensões do produto: 12 x 11 cm; 0,05 g; 180ml</li>
+                    <li>Material: Plástico Polipropileno</li>
+                    <li>Faixa etária: 2 meses - 2 anos</li>
+                </ul>
+             </section>
+            
     
-            <div class="dish-price">
-                <span>R$ 95,00</span>
-                <button class="btn-default">
-                    <a href="kit-bolo.html">Comprar</a>
-                </button>
-            </div>
-            </div>
-        </section>
-        <section class="outros">
+            <section class="outros">
             <h1>Veja também</h1>
             <div id="dishes">
                 <div class="dish">
@@ -185,8 +157,9 @@
                     </span>
                     
                     <div class="dish-price">
+                        
                         <button class="btn-default">
-                            <a href="utensilios.html">Ver produtos</a>
+                            Ver produtos
                         </button>
                     </div>
                 </div>
@@ -210,6 +183,7 @@
             </div>
         </div>
     </footer>
-    <script src="src/javascript/script.js"></script>
-</body>
-</html>
+    <script src="src/javascript/cep.js"></script>
+    <script src="gallery.js"></script>
+    </body>
+    </html>
